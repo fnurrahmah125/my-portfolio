@@ -1,10 +1,13 @@
 <template>
   <div class="container-fluid">
     <NavbarComp />
-    <main class="d-flex flex-column align-items-center">
-      <div class="card mb-5">
-        <img src="../assets/frame-1.jpg" class="card-img-top" alt="..." />
-        <div class="card-body pb-4">
+    <main>
+      <!-- Column 1 -->
+      <div class="row row-cols-1 row-cols-md-2 mb-4">
+        <div class="col col-md-5 p-3 my-auto text-center">
+          <img src="../assets/frame-1.jpg" class="rounded-3" />
+        </div>
+        <div class="col my-auto text-center text-md-start py-3">
           <h5 class="card-title fw-bold lh-base">Sukses Selalu Landing Page</h5>
           <div class="mb-4">
             <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
@@ -26,9 +29,12 @@
         </div>
       </div>
 
-      <div class="card mb-5">
-        <img src="../assets/frame-2.jpg" class="card-img-top" alt="..." />
-        <div class="card-body pb-4">
+      <!-- Column 2 -->
+      <div class="row row-cols-1 row-cols-md-2 mb-4">
+        <div class="col col-md-5 p-3 my-auto text-center">
+          <img src="../assets/frame-2.jpg" class="rounded-3" />
+        </div>
+        <div class="col my-auto text-center text-md-start py-3">
           <h5 class="card-title fw-bold lh-base">Appointment Form</h5>
           <div class="mb-4">
             <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
@@ -50,9 +56,12 @@
         </div>
       </div>
 
-      <div class="card mb-5">
-        <img src="../assets/frame-3.jpg" class="card-img-top" alt="..." />
-        <div class="card-body pb-4">
+      <!-- Column 3 -->
+      <div class="row row-cols-1 row-cols-md-2 mb-4">
+        <div class="col col-md-5 p-3 my-auto text-center">
+          <img src="../assets/frame-3.jpg" class="rounded-3" />
+        </div>
+        <div class="col my-auto text-center text-md-start py-3">
           <h5 class="card-title fw-bold lh-base">Simple Quiz App</h5>
           <div class="mb-4">
             <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
@@ -74,9 +83,12 @@
         </div>
       </div>
 
-      <div class="card mb-5">
-        <img src="../assets/frame-4.jpg" class="card-img-top" alt="..." />
-        <div class="card-body pb-4">
+      <!-- Column 4 -->
+      <div class="row row-cols-1 row-cols-md-2 mb-4">
+        <div class="col col-md-5 p-3 my-auto text-center">
+          <img src="../assets/frame-4.jpg" class="rounded-3" />
+        </div>
+        <div class="col my-auto text-center text-md-start py-3">
           <h5 class="card-title fw-bold lh-base">Simple Weather App</h5>
           <div class="mb-4">
             <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
@@ -121,7 +133,7 @@ export default {
   background-color: #fff;
 }
 img {
-  width: 100%;
+  width: min(100%, 430px);
 }
 a {
   text-decoration: none;
@@ -129,9 +141,8 @@ a {
 main {
   padding: 20px 10px;
 }
-.card {
-  width: min(100%, 42rem);
-  border: none;
+.row {
+  border-radius: 0.25rem;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
 }
 .btn-preview {

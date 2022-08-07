@@ -15,17 +15,17 @@
 
         <p>
           Saat kuliah, ketertarikan saya terhadap bidang IT sempat menghilang, lalu muncul kembali setelah lulus kuliah. Melihat banyaknya peluang untuk bekerja di bidang IT, saya pun mencoba untuk mempelajarinya dari berbagai sumber di
-          internet. Lalu saya memilih Frontend Development karena relatif lebih mudah untuk dipelajari dan sumber belajarnya sudah sangat banyak.
+          internet. Lalu saya memilih Frontend Development karena relatif lebih mudah untuk dipelajari dan sumber belajarnya banyak.
         </p>
 
         <p>
-          Saya menghabiskan beberapa bulan untuk mempelajarinya, dimulai dari belajar HTML, CSS dan Javascript. Saat ini saya sudah bisa membuat web sederhana seperti landing page dan aplikasi web sederhana. Saya masih dan akan terus
-          mengeksplorasi berbagai teknologi untuk membangun sebuah website. Sambil terus mengasah kemampuan, saya pun mencoba untuk mendapatkan pekerjaan di bidang Frontend Development. CV yang sudah saya buat bisa didownload di bawah ini.
+          Saya mulai banyak mempelajarinya di tahun 2021, dari belajar HTML, CSS dan Javascript. Saat ini saya sudah bisa menggunakan Bootstrap dan sedang mempelajari React JS. Jika tertarik untuk mengetahui lebih banyak tentang latar
+          belakang saya, CV yang sudah saya buat bisa diunduh di bawah ini.
         </p>
 
-        <p>Terima kasih sudah membaca cerita singkat tentang saya.</p>
+        <p>Terima kasih.</p>
 
-        <div class="btn-preview mt-5">
+        <div class="btn-preview mt-4">
           <a class="btn btn-front" href="/CV_Fatrini_Nurrahmah.pdf" download>Download CV</a>
           <a href="" class="btn btn-back">Download CV</a>
         </div>
